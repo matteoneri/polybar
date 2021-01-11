@@ -1,0 +1,15 @@
+[general]
+base_currency = EUR
+display = price
+
+[bitcoin]
+ticker = BTC
+icon   = BTC
+
+[litecoin]
+ticker = LTC
+icon   = LTC
+
+[ethereum]
+ticker = ETH
+icon   = ETH
