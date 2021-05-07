@@ -24,7 +24,11 @@ tickers = {d['symbol']:d['price'] for d in tickers}
 for currency in currencies:
     icon = config[currency]['icon']
     tick = config[currency]['ticker']
-    local_price = round(Decimal(tickers[tick+base_currency]))
+    local_price = float(tickers[tick+base_currency])
+    if local_price>100:
+        local_price = int(local_price)
+    else:
+        local_price = round(local_price,1)
     #change_24 = float(json['percent_change_24h'])
 
     display_opt = config['general']['display']

@@ -1,15 +1,27 @@
 [general]
-base_currency = EUR
+base_currency = BUSD
 display = price
 
 [bitcoin]
 ticker = BTC
 icon   = BTC
 
-[litecoin]
-ticker = LTC
-icon   = LTC
-
 [ethereum]
 ticker = ETH
 icon   = ETH
+
+[binance]
+ticker = BNB
+icon   = BNB
+
+[tezos]
+ticker = XTZ
+icon   = XTZ
+
+[cardano]
+ticker = ADA
+icon   = ADA
+
+[polkadot]
+ticker = DOT
+icon   = DOT
